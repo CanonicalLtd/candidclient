@@ -1,7 +1,7 @@
 // Copyright 2015 Canonical Ltd.
 // Licensed under the LGPLv3, see LICENCE file for details.
 
-package idmclient
+package candidclient
 
 import (
 	"net/http"
@@ -16,7 +16,7 @@ import (
 	"gopkg.in/macaroon-bakery.v2/httpbakery"
 	"gopkg.in/macaroon-bakery.v2/httpbakery/agent"
 
-	"gopkg.in/juju/idmclient.v1/params"
+	"gopkg.in/CanonicalLtd/candidclient.v1/params"
 )
 
 // Note: tests for this code are in the server implementation.
@@ -171,4 +171,4 @@ func UserDeclaration(username string) checkers.Caveat {
 	return checkers.DeclaredCaveat("username", username)
 }
 
-//go:generate httprequest-generate-client $IDM_SERVER_REPO/internal/v1 handler client
+//go:generate httprequest-generate-client $CANDID_SERVER_REPO/internal/v1 handler client
