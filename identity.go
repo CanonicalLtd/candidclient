@@ -1,11 +1,11 @@
-package idmclient
+package candidclient
 
 import (
 	"golang.org/x/net/context"
 	"gopkg.in/macaroon-bakery.v2/bakery/identchecker"
 )
 
-// Identity represents a IDM identity. It includes bakery.ACLIdentity but
+// Identity represents a Candid identity. It includes bakery.ACLIdentity but
 // also includes methods for determining the username and
 // enquiring about groups.
 //

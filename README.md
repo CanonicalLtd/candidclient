@@ -1,6 +1,4 @@
-Identity client
+Candid Identity Go client
 ===========
 
-This package provides client code to interact with the identity to
-macaroon authentication server.
-
+This package provides Go client code to interact with the Candid identity server.

@@ -6,7 +6,7 @@ package params_test
 import (
 	gc "gopkg.in/check.v1"
 
-	"gopkg.in/juju/idmclient.v1/params"
+	"gopkg.in/CanonicalLtd/candidclient.v1/params"
 )
 
 type paramsSuite struct{}
