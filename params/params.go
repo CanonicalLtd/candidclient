@@ -106,6 +106,10 @@ type QueryUsersRequest struct {
 	// if using Time.MarshalText. It matches all identies that have a
 	// last discharge time after the given time.
 	LastDischargeSince string `httprequest:"last-discharge-since,form"`
+
+	// Owner, if present, matches all agent identities with the given
+	// owner.
+	Owner string `httprequest:"owner,form"`
 }
 
 // UserRequest is a request for the user details of the named user.
