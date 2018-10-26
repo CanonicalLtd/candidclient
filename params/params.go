@@ -153,6 +153,13 @@ type CreateAgentBody struct {
 	FullName   string              `json:"fullname"`
 	Groups     []string            `json:"idpgroups"`
 	PublicKeys []*bakery.PublicKey `json:"public_keys"`
+
+	// A parent agent is one that can create its own agents. A parent
+	// agent does not have an owner and so remains a member of the
+	// groups it has been allocated irrespective of whether the
+	// creating user remains a member. Only users in the write-user
+	// ACL can create a parent agent.
+	Parent bool `json:"parent,omitempty"`
 }
 
 // CreateAgentResponse holds the response from a
