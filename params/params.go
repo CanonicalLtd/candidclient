@@ -327,6 +327,7 @@ type IDPChoice struct {
 type IDPChoiceDetails struct {
 	Domain      string `json:"domain"`
 	Description string `json:"description"`
+	Icon        string `json:"icon"`
 	Name        string `json:"name"`
 	URL         string `json:"url"`
 }
