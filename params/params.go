@@ -4,13 +4,11 @@
 package params
 
 import (
-	"bytes"
 	"time"
 	"unicode/utf8"
 
 	"gopkg.in/errgo.v1"
 	"gopkg.in/httprequest.v1"
-	"gopkg.in/juju/names.v2"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 	"gopkg.in/macaroon.v2"
 )
@@ -23,11 +21,6 @@ type Username string
 func (u *Username) UnmarshalText(b []byte) error {
 	if utf8.RuneCount(b) > 256 {
 		return errgo.New("username longer than 256 characters")
-	}
-	for _, part := range bytes.Split(b, []byte("@")) {
-		if !names.IsValidUserName(string(part)) {
-			return errgo.Newf("illegal username %q", b)
-		}
 	}
 	*u = Username(string(b))
 	return nil
