@@ -21,9 +21,6 @@ var usernameUnmarshalTests = []struct {
 }, {
 	username: "agent@admin@idm",
 }, {
-	username:    "invalid username",
-	expectError: `illegal username "invalid username"`,
-}, {
 	username:    "toolongusername_0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef_",
 	expectError: "username longer than 256 characters",
 }}

@@ -22,7 +22,6 @@ require (
 	gopkg.in/errgo.v1 v1.0.0
 	gopkg.in/httprequest.v1 v1.0.0-20171212180935-fdaf1bffa255
 	gopkg.in/juju/environschema.v1 v1.0.0-20151104115810-7359fc7857ab
-	gopkg.in/juju/names.v2 v2.0.0-20171113112047-54f00845ae47
 	gopkg.in/macaroon-bakery.v2 v2.0.0-20180323174221-4e2cb21b624f
 	gopkg.in/macaroon.v2 v2.0.0
 	gopkg.in/mgo.v2 v2.0.0-20160818020120-3f83fa500528 // indirect

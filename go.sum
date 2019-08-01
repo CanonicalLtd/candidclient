@@ -48,8 +48,6 @@ gopkg.in/httprequest.v1 v1.0.0-20171212180935-fdaf1bffa255 h1:c8Tllx9gL2KBVcsaZa
 gopkg.in/httprequest.v1 v1.0.0-20171212180935-fdaf1bffa255/go.mod h1:/CkavNL+g3qLOrpFHVrEx4NKepeqR4XTZWNj4sGGjz0=
 gopkg.in/juju/environschema.v1 v1.0.0-20151104115810-7359fc7857ab h1:kygRC4uJrga6LigPehhgIF5yzml4GIv0Na2GeUHALQk=
 gopkg.in/juju/environschema.v1 v1.0.0-20151104115810-7359fc7857ab/go.mod h1:Kq3Lf4sWr8hWSgxmDKY2Esv2Ab6zTgNk6uWyL9xC8ks=
-gopkg.in/juju/names.v2 v2.0.0-20171113112047-54f00845ae47 h1:w2Yt8TmMuXAoC+J6ZkSJxSVoGtMl3+0HCc0xLveuFBY=
-gopkg.in/juju/names.v2 v2.0.0-20171113112047-54f00845ae47/go.mod h1:XXa/v5qG1IsStRg5KTE8JkDMndoDMOKH1YYw0jSUWaM=
 gopkg.in/macaroon-bakery.v2 v2.0.0-20180323174221-4e2cb21b624f h1:B1bA9m0z1PXgaKDU7Uq6BlJm6LeBQ/cmgj0WzTHpm9w=
 gopkg.in/macaroon-bakery.v2 v2.0.0-20180323174221-4e2cb21b624f/go.mod h1:B4/T17l+ZWGwxFSZQmlBwp25x+og7OkhETfr3S9MbIA=
 gopkg.in/macaroon.v2 v2.0.0 h1:LVWycAfeJBUjCIqfR9gqlo7I8vmiXRr51YEOZ1suop8=
