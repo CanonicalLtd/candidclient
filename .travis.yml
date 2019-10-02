@@ -1,13 +1,7 @@
 language: go
 go_import_path: "gopkg.in/CanonicalLtd/candidclient.v1"
-go: 
-  - "1.9"
-  - "1.10"
-  - "1.11"
-  - "1.12"
-before_install:
-  - "go get github.com/rogpeppe/godeps"
-install:
-  - "go get -d gopkg.in/CanonicalLtd/candidclient.v1"
-  - "godeps -u $GOPATH/src/gopkg.in/CanonicalLtd/candidclient.v1/dependencies.tsv"
+go:
+  - "1.11.x"
+  - "1.12.x"
+  - "1.13.x"
 script: GO111MODULE=on go test ./...
